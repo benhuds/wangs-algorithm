@@ -24,7 +24,7 @@ getPremises(Premises):-
 	getTheorem(Premises,X).
 
 getTheorem(Premises,Theorem):-
-	write('Input theorem as a list: '),
+	write('Input consequent as a list: '),
 	nl,
 	read(Theorem),
 	nl,
@@ -37,7 +37,7 @@ go(X):-
 	prove(X),
 	write('\n\nConclude that this is a theorem.\n').
 go(X):-
-	write('\n=\tBranch cannot be proved.'),
+	write('\n=\tCannot be proved.'),
 	write('\n\nWe can conclude that this is not a theorem.\n').
 
 %predicate to delete an element X from a list L.
@@ -119,7 +119,3 @@ prove(L => R):-
 	member(X,L),
 	member(X,R),
 	nl,write('=\tDone (by id*)').
-
-%in case there are no connectives on either side
-%prove(L => R):-
-%	nl,write('=\tCannot be proved').
