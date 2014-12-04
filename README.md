@@ -4,6 +4,6 @@ Prolog
 ### finalproject:
 a propositional theorem prover based on Wang's algorithm.
 
-(see https://www.cs.bham.ac.uk/research/projects/poplog/doc/popteach/wang)
+final project for Computational Logic and Logic Programming at Wesleyan University, Fall 2014.
 
-final project for Computational Logic and Logic Programming
+(see https://www.cs.bham.ac.uk/research/projects/poplog/doc/popteach/wang)
